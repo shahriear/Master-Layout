@@ -1,8 +1,11 @@
 import React from 'react'
+import Portfolio from '../../Components/Portfolio/Portfolio'
 
 const page = () => {
   return (
-    <div>About page</div>
+    <>
+      <Portfolio/>
+    </>
   )
 }
 

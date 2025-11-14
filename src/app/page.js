@@ -1,9 +1,12 @@
 import React from 'react'
+import Banner from './Components/Banner/Banner';
 
 const page = () => {
   return (
-    <div>Home page</div>
-  )
+    <>
+      <Banner />
+    </>
+  );
 }
 
 export default page
